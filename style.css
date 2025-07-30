@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1c1c1c 0%, #383838 100%);
     min-height: 100vh;
-    color: #333;
+    color: #f0f0f0;
 }
 
 .container {
@@ -23,9 +23,9 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(28, 28, 28, 0.9);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
     z-index: 1000;
     padding: 15px 0;
     transition: all 0.3s ease;
@@ -43,7 +43,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #667eea;
+    color: #f0f0f0;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -53,6 +53,7 @@ body {
 
 .logo:hover {
     transform: scale(1.05);
+    animation: pulse 1s infinite;
 }
 
 .nav-menu {
@@ -63,7 +64,7 @@ body {
 }
 
 .nav-menu li a {
-    color: #333;
+    color: #f0f0f0;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -72,13 +73,13 @@ body {
 }
 
 .nav-menu li a:hover {
-    background-color: rgba(102, 126, 234, 0.1);
-    color: #667eea;
+    background-color: rgba(240, 240, 240, 0.1);
+    color: #fff;
     transform: translateY(-2px);
 }
 
 .nav-menu li a.active {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #8a2be2, #4b0082);
     color: white;
 }
 
@@ -87,7 +88,7 @@ body {
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: #667eea;
+    color: #f0f0f0;
     cursor: pointer;
 }
 
@@ -116,11 +117,11 @@ h1 {
 }
 
 .hero-section {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(42, 42, 42, 0.9);
     border-radius: 20px;
     padding: 40px;
     margin: 40px 0;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
     animation: slideInUp 1s ease-out 0.6s both;
 }
@@ -133,10 +134,10 @@ h1 {
 }
 
 .feature-card {
-    background: white;
+    background: #2a2a2a;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeIn 1s ease-out 0.9s both;
 }
@@ -149,23 +150,23 @@ h1 {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #667eea;
+    color: #8a2be2;
 }
 
 .feature-title {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #f0f0f0;
 }
 
 .feature-description {
-    color: #666;
+    color: #a0a0a0;
     line-height: 1.6;
 }
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #8a2be2, #4b0082);
     color: white;
     padding: 12px 28px;
     border-radius: 50px;
@@ -173,12 +174,12 @@ h1 {
     font-weight: bold;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
 }
 
 .cta-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.6);
+    box-shadow: 0 10px 25px rgba(138, 43, 226, 0.6);
 }
 
 footer {

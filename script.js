@@ -18,10 +18,10 @@ navLinks.forEach(link => {
 window.addEventListener('scroll', () => {
     const navHeader = document.querySelector('.nav-header');
     if (window.scrollY > 50) {
-        navHeader.style.background = 'rgba(255, 255, 255, 0.98)';
-        navHeader.style.boxShadow = '0 2px 30px rgba(0,0,0,0.15)';
+        navHeader.style.background = 'rgba(28, 28, 28, 0.98)';
+        navHeader.style.boxShadow = '0 2px 30px rgba(0,0,0,0.2)';
     } else {
-        navHeader.style.background = 'rgba(255, 255, 255, 0.95)';
-        navHeader.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+        navHeader.style.background = 'rgba(28, 28, 28, 0.9)';
+        navHeader.style.boxShadow = '0 2px 20px rgba(0,0,0,0.2)';
     }
 });
