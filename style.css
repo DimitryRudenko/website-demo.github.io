@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     min-height: 100vh;
     color: #333;
 }
@@ -43,7 +43,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #667eea;
+    color: #333;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -72,13 +72,13 @@ body {
 }
 
 .nav-menu li a:hover {
-    background-color: rgba(102, 126, 234, 0.1);
-    color: #667eea;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
     transform: translateY(-2px);
 }
 
 .nav-menu li a.active {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: #333;
     color: white;
 }
 
@@ -87,7 +87,7 @@ body {
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: #667eea;
+    color: #333;
     cursor: pointer;
 }
 
@@ -99,7 +99,7 @@ body {
 header {
     text-align: center;
     padding: 60px 0;
-    color: white;
+    color: #333;
 }
 
 h1 {
@@ -149,7 +149,7 @@ h1 {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #667eea;
+    color: #333;
 }
 
 .feature-title {
@@ -165,7 +165,7 @@ h1 {
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: #333;
     color: white;
     padding: 12px 28px;
     border-radius: 50px;
@@ -173,18 +173,18 @@ h1 {
     font-weight: bold;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cta-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.6);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 footer {
     text-align: center;
     padding: 40px 0;
-    color: white;
+    color: #333;
     opacity: 0.8;
 }
 
