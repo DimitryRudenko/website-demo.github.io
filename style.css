@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a237e 0%, #673ab7 100%);
     min-height: 100vh;
     color: #333;
 }
@@ -43,7 +43,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #667eea;
+    color: #ffffff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -53,6 +53,7 @@ body {
 
 .logo:hover {
     transform: scale(1.05);
+    animation: pulse 1s infinite;
 }
 
 .nav-menu {
@@ -78,7 +79,7 @@ body {
 }
 
 .nav-menu li a.active {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #1a237e, #673ab7);
     color: white;
 }
 
@@ -165,7 +166,7 @@ h1 {
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #1a237e, #673ab7);
     color: white;
     padding: 12px 28px;
     border-radius: 50px;
