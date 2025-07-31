@@ -179,11 +179,78 @@ h1 {
     box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
 }
 
-footer {
+/* Style du pied de page */
+.site-footer {
+    background-color: #ffffff;
+    padding: 50px 0;
+    color: #333;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-about, .footer-links, .footer-social {
+    flex: 1;
+    min-width: 250px;
+}
+
+.site-footer h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.footer-about p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #555;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
     text-align: center;
-    padding: 40px 0;
-    color: #777;
     margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+    color: #777;
 }
 
 @keyframes fadeInDown {
