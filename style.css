@@ -19,15 +19,15 @@ body {
 
 /* Header de navigation */
 .nav-header {
-    position: fixed;
+    position: fixed; /* Reste en haut de la page */
     top: 0;
     left: 0;
     right: 0;
     background: #ffffff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Ombre subtile */
+    z-index: 1000; /* Assure que le header est au-dessus du reste */
     padding: 20px 0;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* Animation de transition douce */
 }
 
 .nav-container {

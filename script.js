@@ -2,6 +2,9 @@
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
 const navMenu = document.querySelector('.nav-menu');
 
+/**
+ * Ajoute un écouteur d'événements pour basculer la visibilité du menu mobile.
+ */
 mobileMenuBtn.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
@@ -9,6 +12,9 @@ mobileMenuBtn.addEventListener('click', () => {
 // Fermer le menu mobile en cliquant sur un lien
 const navLinks = document.querySelectorAll('.nav-menu a');
 navLinks.forEach(link => {
+    /**
+     * Ajoute un écouteur d'événements pour fermer le menu mobile lors du clic sur un lien.
+     */
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
     });
@@ -17,6 +23,9 @@ navLinks.forEach(link => {
 // Header scroll effect
 window.addEventListener('scroll', () => {
     const navHeader = document.querySelector('.nav-header');
+    /**
+     * Modifie l'apparence de l'en-tête en fonction du défilement de la page.
+     */
     if (window.scrollY > 50) {
         navHeader.style.background = 'rgba(255, 255, 255, 0.98)';
         navHeader.style.boxShadow = '0 2px 30px rgba(0,0,0,0.15)';
