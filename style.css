@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f0f2f5;
+    background: #f8f9fa; /* Soft off-white */
     min-height: 100vh;
-    color: #333;
+    color: #212529; /* Dark charcoal */
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #333;
+    color: #212529; /* Dark charcoal */
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -63,18 +63,18 @@ body {
 }
 
 .nav-menu li a {
-    color: #555;
+    color: #6c757d; /* Lighter gray */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-menu li a:hover {
-    color: #007bff;
+    color: #6f42c1; /* Deep purple */
 }
 
 .nav-menu li a.active {
-    color: #007bff;
+    color: #6f42c1; /* Deep purple */
     font-weight: 700;
 }
 
@@ -83,7 +83,7 @@ body {
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: #333;
+    color: #212529; /* Dark charcoal */
     cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ body {
 header {
     text-align: center;
     padding: 80px 0;
-    color: #333;
+    color: #212529; /* Dark charcoal */
 }
 
 h1 {
@@ -108,7 +108,7 @@ h1 {
 
 .subtitle {
     font-size: 1.5rem;
-    color: #555;
+    color: #6c757d; /* Lighter gray */
     animation: fadeInUp 1s ease-out 0.3s both;
 }
 
@@ -129,7 +129,7 @@ h1 {
 }
 
 .feature-card {
-    background: #f8f9fa;
+    background: #ffffff;
     padding: 40px;
     border-radius: 8px;
     border: 1px solid #e9ecef;
@@ -145,24 +145,24 @@ h1 {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #6f42c1; /* Deep purple */
 }
 
 .feature-title {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #212529; /* Dark charcoal */
     font-weight: 600;
 }
 
 .feature-description {
-    color: #555;
+    color: #6c757d; /* Lighter gray */
     line-height: 1.6;
 }
 
 .cta-button {
     display: inline-block;
-    background: #007bff;
+    background: #6f42c1; /* Deep purple */
     color: white;
     padding: 14px 32px;
     border-radius: 50px;
@@ -170,19 +170,19 @@ h1 {
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(111, 66, 193, 0.2);
 }
 
 .cta-button:hover {
-    background: #0056b3;
+    background: #5a32a3; /* Darker purple */
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(111, 66, 193, 0.3);
 }
 
 footer {
     text-align: center;
     padding: 40px 0;
-    color: #777;
+    color: #6c757d; /* Lighter gray */
     margin-top: 40px;
 }
 
@@ -256,7 +256,7 @@ footer {
 }
 
 .pricing-card.popular {
-    border-color: #007bff;
+    border-color: #6f42c1; /* Deep purple */
     transform: scale(1.05);
 }
 
@@ -269,14 +269,14 @@ footer {
 .pricing-header .pricing-price {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #007bff;
+    color: #6f42c1; /* Deep purple */
     margin-bottom: 30px;
 }
 
 .pricing-features {
     list-style: none;
     margin-bottom: 40px;
-    color: #555;
+    color: #6c757d; /* Lighter gray */
 }
 
 .pricing-features li {
