@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f0f2f5;
+    background: #1a1a2e;
     min-height: 100vh;
-    color: #333;
+    color: #ffffff;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: #ffffff;
+    background: #16213e;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     z-index: 1000;
     padding: 20px 0;
@@ -42,7 +42,7 @@ body {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -63,18 +63,18 @@ body {
 }
 
 .nav-menu li a {
-    color: #555;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-menu li a:hover {
-    color: #007bff;
+    color: #e94560;
 }
 
 .nav-menu li a.active {
-    color: #007bff;
+    color: #e94560;
     font-weight: 700;
 }
 
@@ -83,7 +83,7 @@ body {
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: #333;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ body {
 header {
     text-align: center;
     padding: 80px 0;
-    color: #333;
+    color: #ffffff;
 }
 
 h1 {
@@ -108,12 +108,12 @@ h1 {
 
 .subtitle {
     font-size: 1.5rem;
-    color: #555;
+    color: #ffffff;
     animation: fadeInUp 1s ease-out 0.3s both;
 }
 
 .hero-section {
-    background: #ffffff;
+    background: #16213e;
     border-radius: 8px;
     padding: 60px;
     margin: 40px 0;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .feature-card {
-    background: #f8f9fa;
+    background: #1a1a2e;
     padding: 40px;
     border-radius: 8px;
     border: 1px solid #e9ecef;
@@ -145,24 +145,24 @@ h1 {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #e94560;
 }
 
 .feature-title {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .feature-description {
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
 }
 
 .cta-button {
     display: inline-block;
-    background: #007bff;
+    background: #e94560;
     color: white;
     padding: 14px 32px;
     border-radius: 50px;
@@ -170,19 +170,19 @@ h1 {
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(233, 69, 96, 0.2);
 }
 
 .cta-button:hover {
-    background: #0056b3;
+    background: #d43d51;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(233, 69, 96, 0.3);
 }
 
 footer {
     text-align: center;
     padding: 40px 0;
-    color: #777;
+    color: #ffffff;
     margin-top: 40px;
 }
 
@@ -230,7 +230,7 @@ footer {
 
 .pricing-section {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: #16213e;
 }
 
 .pricing-container {
@@ -241,7 +241,7 @@ footer {
 }
 
 .pricing-card {
-    background: #ffffff;
+    background: #1a1a2e;
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
@@ -256,7 +256,7 @@ footer {
 }
 
 .pricing-card.popular {
-    border-color: #007bff;
+    border-color: #e94560;
     transform: scale(1.05);
 }
 
@@ -269,14 +269,14 @@ footer {
 .pricing-header .pricing-price {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #007bff;
+    color: #e94560;
     margin-bottom: 30px;
 }
 
 .pricing-features {
     list-style: none;
     margin-bottom: 40px;
-    color: #555;
+    color: #ffffff;
 }
 
 .pricing-features li {
@@ -321,7 +321,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(22, 33, 62, 0.95);
         backdrop-filter: blur(10px);
         flex-direction: column;
         padding: 20px;
