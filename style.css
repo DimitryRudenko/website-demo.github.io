@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f0f2f5;
+    background-color: #f3e5f5;
     min-height: 100vh;
     color: #333;
 }
@@ -70,11 +70,11 @@ body {
 }
 
 .nav-menu li a:hover {
-    color: #007bff;
+    color: #f50057;
 }
 
 .nav-menu li a.active {
-    color: #007bff;
+    color: #f50057;
     font-weight: 700;
 }
 
@@ -129,7 +129,7 @@ h1 {
 }
 
 .feature-card {
-    background: #f8f9fa;
+    background: #ffffff;
     padding: 40px;
     border-radius: 8px;
     border: 1px solid #e9ecef;
@@ -145,7 +145,7 @@ h1 {
 .feature-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #6a1b9a;
 }
 
 .feature-title {
@@ -162,7 +162,7 @@ h1 {
 
 .cta-button {
     display: inline-block;
-    background: #007bff;
+    background: #6a1b9a;
     color: white;
     padding: 14px 32px;
     border-radius: 50px;
@@ -170,13 +170,13 @@ h1 {
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(106, 27, 154, 0.2);
 }
 
 .cta-button:hover {
-    background: #0056b3;
+    background: #f50057;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(245, 0, 87, 0.3);
 }
 
 footer {
